@@ -49,7 +49,7 @@ var LinkedList = {
 
     current.next = current.next.next;
   },
-  toString: function() {
+  print: function() {
     if (this.head === null) {
       return null;
     } else {
